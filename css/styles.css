@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+  }
+  
+  .accordion-button {
+    font-weight: bold;
+  }
+  
+  .accordion-body {
+    background-color: #ffffff;
+  }

@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV Website</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- Bootstrap JS and dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
@@ -25,5 +26,41 @@
             <p class="lead">So handome and guapete...</p>
         </div>
     </header>
+    <section class="container my-5">
+        <div class="accordion" id="cvSections">
+            <!--About me-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingAbout">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseAbout" aria-expanded="true" aria-controls="collapseAbout">
+                        About me
+                    </button>
+                </h2>
+                <div id="collapseAbout" class="accordion-collapse collapse show" ria-labelledby="headingAbout"
+                    data-bs-parent="#cvSections">
+                    <div class="accordion-body">
+                        <p>I'm still have to dump my cv data, i know</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--Work Experience-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingExperience">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExperience" aria-expanded="false" aria-controls="collapseExperience">
+                        Work Experience
+                    </button>
+                </h2>
+                <div id="collapseExperience" class="accordion-collapse collapse" aria-labelledby="headingExperience"
+                    data-bs-parent="#cvSections">
+                    <div class="accordion-body">
+                        <p>Still have to dump my cv data, i know</p>
+                    </div>
+                </div>
+            </div>
+            <!--ETC!!-->
+    </section>
 </body>
 </html>
