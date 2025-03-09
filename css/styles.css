@@ -1,15 +1,39 @@
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: #f8f9fa;
-  }
-  
-  .accordion-button {
-    font-weight: bold;
-  }
-  
-  .accordion-body {
-    background-color: #ffffff;
-  }
+  font-family: 'Merriweather', serif; /* Serif font for a literary feel */
+  line-height: 1.6; /* Improved readability */
+  color: #333; /* Dark gray text for better contrast */
+  background-color: #f9f9f9; /* Light background */
+}
+
+/* Hero section styling */
+.hero-section {
+  background-color: #0c73daaa; /* Semi-transparent blue background */
+  padding: 100px 0; /* Added padding for spacing */
+  color: white; /* White text for contrast */
+  text-align: center; /* Centered content */
+}
+
+/* Heading styling */
+h1, h2 {
+  font-family: 'Open Sans', sans-serif; /* Sans-serif for headings */
+  font-weight: 700; /* Bold headings */
+  margin-bottom: 20px; /* Added margin below headings for spacing */
+}
+
+/* Button styling */
+.btn-outline-secondary {
+  border-color: #333; /* Dark gray border */
+  color: #333; /* Dark gray text */
+}
+
+.btn-outline-secondary:hover {
+  background-color: #333; /* Dark gray background on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Card styling */
+.card {
+  border: none; /* Remove default border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}

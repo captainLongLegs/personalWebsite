@@ -1,0 +1,44 @@
+{
+    "en": {
+      "about": "About Me",
+      "aboutContent": "I am a passionate developer with experience in web development and a love for learning new technologies. And also for literature.",
+      "experience": "Work Experience",
+      "experienceContent": "Worked as a junior developer at XYZ Company.",
+      "education": "Education",
+      "educationContent": "Bachelor's degree in Computer Science from ABC University.",
+      "skills": "Skills",
+      "skillsContent": "HTML, CSS, JavaScript, PHP, Bootstrap, Laravel.",
+      "languages": "Languages",
+      "languagesContent": "English, Spanish, Catalan.",
+      "interests": "Interests",
+      "interestsContent": "Web development, literature, gaming."
+    },
+    "es": {
+      "about": "Sobre Mí",
+      "aboutContent": "Soy un desarrollador apasionado con experiencia en desarrollo web y a quien le encanta aprender nuevas tecnologías. Y la literatura.",
+      "experience": "Experiencia Laboral",
+      "experienceContent": "Trabajé como desarrollador junior en la empresa XYZ.",
+      "education": "Educación",
+      "educationContent": "Licenciatura en Ciencias de la Computación de la Universidad ABC.",
+      "skills": "Habilidades",
+      "skillsContent": "HTML, CSS, JavaScript, PHP, Bootstrap, Laravel.",
+      "languages": "Idiomas",
+      "languagesContent": "Inglés, Español, Catalán.",
+      "interests": "Intereses",
+      "interestsContent": "Desarrollo web, literatura, juegos."
+    },
+    "ca": {
+      "about": "Sobre Mi",
+      "aboutContent": "Sóc un desenvolupador apassionat amb experiència en desenvolupament web i a qui li encanta aprendre noves tecnologies. I la literatura.",
+      "experience": "Experiència Laboral",
+      "experienceContent": "Vaig treballar com a desenvolupador junior a l'empresa XYZ.",
+      "education": "Educació",
+      "educationContent": "Llicenciatura en Ciències de la Computació de la Universitat ABC.",
+      "skills": "Habilitats",
+      "skillsContent": "HTML, CSS, JavaScript, PHP, Bootstrap, Laravel.",
+      "languages": "Idiomes",
+      "languagesContent": "Anglès, Espanyol, Català.",
+      "interests": "Interessos",
+      "interestsContent": "Desenvolupament web, literatura, jocs."
+    }
+  }
