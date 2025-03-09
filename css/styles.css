@@ -1,39 +1,89 @@
-/* General body styling */
 body {
-  font-family: 'Merriweather', serif; /* Serif font for a literary feel */
-  line-height: 1.6; /* Improved readability */
-  color: #333; /* Dark gray text for better contrast */
-  background-color: #f9f9f9; /* Light background */
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  background-color: #f5f5dc; /* Beige background */
 }
 
-/* Hero section styling */
 .hero-section {
-  background-color: #0c73daaa; /* Semi-transparent blue background */
-  padding: 100px 0; /* Added padding for spacing */
-  color: white; /* White text for contrast */
-  text-align: center; /* Centered content */
+  background-color: #d2b48c; /* Tan background */
+  padding: 100px 0;
+  text-align: center;
 }
 
-/* Heading styling */
 h1, h2 {
-  font-family: 'Open Sans', sans-serif; /* Sans-serif for headings */
-  font-weight: 700; /* Bold headings */
-  margin-bottom: 20px; /* Added margin below headings for spacing */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-/* Button styling */
 .btn-outline-secondary {
-  border-color: #333; /* Dark gray border */
-  color: #333; /* Dark gray text */
+  border-color: #8b4513; /* SaddleBrown border */
+  color: #8b4513; /* SaddleBrown text */
+  border: none;
 }
 
 .btn-outline-secondary:hover {
-  background-color: #333; /* Dark gray background on hover */
+  background-color: #8b4513; /* SaddleBrown background on hover */
   color: #fff; /* White text on hover */
 }
 
-/* Card styling */
 .card {
-  border: none; /* Remove default border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fffaf0; /* FloralWhite background */
+}
+
+.accordion-button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: larger;
+  background-color: #fffaf0; /* FloralWhite background */
+  border-radius: 0; /* Remove rounded corners */
+  margin-bottom: 0; /* Remove margin between buttons */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f5deb3; /* Wheat background when expanded */
+  color: #4a4a4a; /* Dark gray text */
+}
+
+.accordion-button:focus {
+  outline: none; /* Remove the default outline */
+  box-shadow: none;
+}
+
+.accordion-body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  line-height: 1.6;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fffaf0; /* FloralWhite background */
+  border-bottom: 1px solid #8b4513; /* SaddleBrown border */
+
+}
+
+.accordion-item {
+  margin-bottom: 0; /* Remove margin between items */
+  border: none; /* Remove default borders */
+}
+
+/* Add a border between buttons for better separation */
+.accordion-item:not(:last-child) .accordion-button {
+  border-bottom: 1px solid #8b4513; /* SaddleBrown border */
+}
+
+
+button {
+  border: none;
+}
+
+.accordion-body::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
